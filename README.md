@@ -1,4 +1,4 @@
-# Images
+# Audiovisual
 
 Docker container to manipulate audiovisual media (ffmpeg, mkvtoolnix, mlt...).
 
