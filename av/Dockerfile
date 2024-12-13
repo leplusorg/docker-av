@@ -10,7 +10,24 @@ ARG USER_ID=1000
 ARG USER_GECOS=Default
 
 # hadolint ignore=DL3018
-RUN apk --update --no-cache add ffmpeg ffmpegthumbnailer ffmpegthumbs mlt mkvtoolnix mp3splt \
+RUN apk --update --no-cache add \
+    audiofile \
+    blind \
+    darkice \
+    ffmpeg \
+    ffmpegthumbnailer \
+    ffmpegthumbs \
+    flac \
+    freac \
+    mlt \
+    mkvtoolnix \
+    mp3splt \
+    pipewire \
+    soundtouch \
+    v4l-utils \
+    wavpack \
+    x265 \
+    yt-dlp \
     && rm -rf /var/cache/apk/*
 
 RUN adduser \
