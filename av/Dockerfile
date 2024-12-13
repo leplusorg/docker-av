@@ -10,7 +10,7 @@ ARG USER_ID=1000
 ARG USER_GECOS=Default
 
 # hadolint ignore=DL3018
-RUN apk --update --no-cache add ffmpeg ffmpegthumbnailer ffmpegthumbs mlt mkvtoolnix mp3gain mp3splt mp3val \
+RUN apk --update --no-cache add ffmpeg ffmpegthumbnailer ffmpegthumbs mlt mkvtoolnix mp3splt \
     && rm -rf /var/cache/apk/*
 
 RUN adduser \
