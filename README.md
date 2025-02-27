@@ -7,6 +7,8 @@ Docker container to manipulate audiovisual media (ffmpeg, mkvtoolnix, mlt...).
 [![Docker Stars](https://img.shields.io/docker/stars/leplusorg/av)](https://hub.docker.com/r/leplusorg/av)
 [![Docker Pulls](https://img.shields.io/docker/pulls/leplusorg/av)](https://hub.docker.com/r/leplusorg/av)
 [![Docker Version](https://img.shields.io/docker/v/leplusorg/av?sort=semver)](https://hub.docker.com/r/leplusorg/av)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10081/badge)](https://bestpractices.coreinfrastructure.org/projects/10081)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/leplusorg/docker-av/badge)](https://securityscorecards.dev/viewer/?uri=github.com/leplusorg/docker-av)
 
 ## Example without using the filesystem
 
