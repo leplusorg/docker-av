@@ -2,7 +2,7 @@
 
 Docker container to manipulate audiovisual media (ffmpeg, mkvtoolnix, mlt...).
 
-[![Dockerfile](av/Dockerfile)
+[![Dockerfile](https://img.shields.io/badge/GitHub-Dockerfile-blue)](av/Dockerfile)
 [![Docker Build](https://github.com/leplusorg/docker-av/workflows/Docker/badge.svg)](https://github.com/leplusorg/docker-av/actions?query=workflow:"Docker")
 [![Docker Stars](https://img.shields.io/docker/stars/leplusorg/av)](https://hub.docker.com/r/leplusorg/av)
 [![Docker Pulls](https://img.shields.io/docker/pulls/leplusorg/av)](https://hub.docker.com/r/leplusorg/av)
