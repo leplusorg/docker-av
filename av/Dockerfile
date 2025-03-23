@@ -32,7 +32,7 @@ RUN apk -U upgrade \
     v4l-utils=1.28.1-r1 \
     wavpack=5.7.0-r0 \
     x265=3.6-r0 \
-    yt-dlp=2025.02.19-r0 \
+    yt-dlp=2025.03.21-r0 \
     && if apk -u list | grep -q -e . ; then \
       apk -u list ; \
       exit 1 ; \
