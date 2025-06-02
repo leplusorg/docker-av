@@ -23,16 +23,16 @@ RUN apk -U upgrade \
     flac=1.4.3-r1 \
     freac=1.1.7-r0 \
     mkvtoolnix=88.0-r0 \
-    mlt=7.28.0-r0 \
+    mlt=7.30.0-r2 \
     mp3splt=2.6.2-r1 \
-    py3-pip=24.3.1-r0 \
+    py3-pip=25.1.1-r0 \
     python3=3.12.10-r1 \
-    pipewire=1.2.7-r0 \
+    pipewire=1.4.4-r0 \
     soundtouch=2.3.3-r0 \
     v4l-utils=1.28.1-r1 \
-    wavpack=5.7.0-r0 \
+    wavpack=5.8.0-r0 \
     x265=3.6-r0 \
-    yt-dlp=2025.03.31-r0 \
+    yt-dlp=2025.05.22-r0 \
     && if apk -u list | grep -q -e . ; then \
       apk -u list ; \
       exit 1 ; \
