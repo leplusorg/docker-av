@@ -16,12 +16,14 @@ RUN apk -U upgrade \
     && apk add \
     audiofile=0.3.6-r3 \
     blind=1.1-r6 \
+    curl=8.14.1-r0 \
     darkice=1.5-r1 \
     ffmpeg=6.1.2-r2 \
     ffmpegthumbnailer=2.2.3-r0 \
     ffmpegthumbs=25.04.0-r0 \
     flac=1.4.3-r1 \
     freac=1.1.7-r0 \
+    git=2.49.0-r0 \
     mkvtoolnix=92.0-r0 \
     mlt=7.30.0-r2 \
     mp3splt=2.6.2-r1 \
