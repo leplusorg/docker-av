@@ -20,7 +20,7 @@ RUN apk -U upgrade \
     darkice=1.5-r1 \
     ffmpeg=6.1.2-r2 \
     ffmpegthumbnailer=2.2.3-r0 \
-    ffmpegthumbs=25.04.0-r0 \
+    ffmpegthumbs=25.04.2-r0 \
     flac=1.4.3-r1 \
     freac=1.1.7-r0 \
     git=2.49.0-r0 \
