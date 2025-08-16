@@ -23,7 +23,6 @@ RUN apk -U upgrade \
     ffmpegthumbnailer=2.2.3-r0 \
     ffmpegthumbs=25.04.2-r0 \
     flac=1.4.3-r1 \
-    freac=1.1.7-r0 \
     git=2.49.1-r0 \
     mkvtoolnix=92.0-r0 \
     mlt=7.30.0-r2 \

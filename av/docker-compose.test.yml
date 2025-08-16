@@ -4,4 +4,27 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: "sh -c '[ $$(id -u) -eq 1000 ] && ffprobe -version'"
+    command: |
+      sh -c '
+        set -euo pipefail
+        if [ $(id -u) -ne 1000 ]; then
+          exit 1
+        fi
+        base64 --version # coreutils
+        curl --version # curl
+        ffmpeg -version # ffmpeg
+        ffmpegthumbnailer -v # ffmpegthumbnailer
+        flac --version # flac
+        git --version # git
+        mkvinfo --version # mkvtoolnix
+        melt --version # mlt
+        mp3splt -v # mp3splt
+        pip --version # py3-pip
+        pipewire --version # pipewire
+        python --version # python3
+        sfconvert --version # audiofile
+        v4l2-ctl --version # v4l-utils
+        wavpack --version # wavpack
+        x265 --version # x265
+        yt-dlp --version # yt-dlp
+      '
