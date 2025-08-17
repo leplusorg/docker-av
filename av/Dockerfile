@@ -35,7 +35,7 @@ RUN apk -U upgrade \
     wavpack=5.8.0-r0 \
     x265=3.6-r0 \
     yt-dlp=2025.08.11-r0 \
-    && if apk -u list | tee >(cat 1>&2) | grep -q -e . ; then \
+    && if apk -u list | tee -a /dev/stderr | grep -q -e . ; then \
       exit 1 ; \
     fi \
     && apk cache clean \
