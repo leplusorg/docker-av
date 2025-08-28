@@ -12,8 +12,8 @@ ARG USER_GECOS=Default
 SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 
 # hadolint ignore=DL3019
-RUN apk -U upgrade \
-    && apk add \
+RUN apk upgrade --no-cache \
+    && apk add --no-cache \
     audiofile=0.3.6-r3 \
     blind=1.1-r6 \
     coreutils=9.7-r1 \
@@ -35,7 +35,7 @@ RUN apk -U upgrade \
     wavpack=5.8.0-r0 \
     x265=3.6-r0 \
     yt-dlp=2025.08.22-r0 \
-    && apk cache clean \
+    && apk cache --no-cache clean \
     && rm -rf /var/cache/apk/*
 
 RUN adduser \
