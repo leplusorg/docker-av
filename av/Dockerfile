@@ -11,7 +11,6 @@ ARG USER_GECOS=Default
 
 SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 
-# hadolint ignore=DL3019
 RUN apk upgrade --no-cache \
     && apk add --no-cache \
     audiofile=0.3.6-r3 \
