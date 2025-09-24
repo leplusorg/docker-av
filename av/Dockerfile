@@ -33,7 +33,7 @@ RUN apk upgrade --no-cache \
     v4l-utils=1.28.1-r1 \
     wavpack=5.8.0-r0 \
     x265=3.6-r0 \
-    yt-dlp=2025.08.27-r0 \
+    yt-dlp=2025.09.23-r0 \
     && apk cache --no-cache clean \
     && rm -rf /var/cache/apk/*
 
