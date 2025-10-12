@@ -27,7 +27,7 @@ RUN apk upgrade --no-cache \
     mlt=7.30.0-r2 \
     mp3splt=2.6.2-r1 \
     py3-pip=25.1.1-r0 \
-    python3=3.12.11-r0 \
+    python3=3.12.12-r0 \
     pipewire=1.4.7-r0 \
     soundtouch=2.3.3-r0 \
     v4l-utils=1.28.1-r1 \
