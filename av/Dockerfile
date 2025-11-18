@@ -26,6 +26,7 @@ RUN apk upgrade --no-cache \
     mkvtoolnix=92.0-r0 \
     mlt=7.30.0-r2 \
     mp3splt=2.6.2-r1 \
+    pipx=1.7.1-r0 \
     py3-pip=25.1.1-r0 \
     python3=3.12.12-r0 \
     pipewire=1.4.7-r0 \
@@ -33,9 +34,14 @@ RUN apk upgrade --no-cache \
     v4l-utils=1.28.1-r1 \
     wavpack=5.8.0-r0 \
     x265=3.6-r0 \
-    yt-dlp=2025.10.22-r0 \
     && apk cache --no-cache clean \
     && rm -rf /var/cache/apk/*
+
+COPY requirements.txt /tmp/requirements.txt
+
+RUN pipx ensurepath --global \
+    && xargs -a /tmp/requirements.txt -n 1 pipx install --global \
+    && rm -f /tmp/requirements.txt
 
 RUN adduser \
   --home "${USER_HOME}" \
