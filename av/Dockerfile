@@ -18,9 +18,9 @@ RUN apk upgrade --no-cache \
     coreutils=9.8-r1 \
     curl=8.17.0-r1 \
     darkice=1.5-r1 \
-    ffmpeg=6.1.2-r2 \
-    ffmpegthumbnailer=2.2.3-r0 \
-    ffmpegthumbs=25.04.2-r0 \
+    ffmpeg=8.0.1-r0 \
+    ffmpegthumbnailer=2.2.4-r0 \
+    ffmpegthumbs=25.08.3-r0 \
     flac=1.4.3-r2 \
     git=2.52.0-r0 \
     mkvtoolnix=96.0-r0 \
