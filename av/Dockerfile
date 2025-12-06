@@ -21,19 +21,19 @@ RUN apk upgrade --no-cache \
     ffmpeg=6.1.2-r2 \
     ffmpegthumbnailer=2.2.3-r0 \
     ffmpegthumbs=25.04.2-r0 \
-    flac=1.4.3-r1 \
+    flac=1.4.3-r2 \
     git=2.52.0-r0 \
-    mkvtoolnix=92.0-r0 \
-    mlt=7.30.0-r2 \
+    mkvtoolnix=96.0-r0 \
+    mlt=7.34.0-r0 \
     mp3splt=2.6.2-r1 \
     pipx=1.8.0-r0 \
     py3-pip=25.1.1-r1 \
     python3=3.12.12-r0 \
-    pipewire=1.4.7-r0 \
+    pipewire=1.4.9-r2 \
     soundtouch=2.3.3-r0 \
     v4l-utils=1.32.0-r0 \
     wavpack=5.8.1-r0 \
-    x265=3.6-r0 \
+    x265=4.1-r0 \
     && apk cache --no-cache clean \
     && rm -rf /var/cache/apk/*
 
