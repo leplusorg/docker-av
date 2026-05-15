@@ -16,7 +16,7 @@ RUN apk upgrade --no-cache \
     audiofile=0.3.6-r3 \
     blind=1.1-r6 \
     coreutils=9.8-r1 \
-    curl=8.17.0-r1 \
+    curl=8.19.0-r0 \
     darkice=1.5-r1 \
     ffmpeg=8.0.1-r1 \
     ffmpegthumbnailer=2.2.4-r0 \
