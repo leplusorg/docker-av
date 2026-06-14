@@ -20,7 +20,7 @@ RUN apk upgrade --no-cache \
     darkice=1.6-r0 \
     ffmpeg=8.1.1-r0 \
     ffmpegthumbnailer=2.2.4-r0 \
-    ffmpegthumbs=26.04.0-r0 \
+    ffmpegthumbs=26.04.2-r0 \
     flac=1.4.3-r2 \
     git=2.54.0-r0 \
     mkvtoolnix=99.0-r0 \
