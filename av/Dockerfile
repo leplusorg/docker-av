@@ -29,7 +29,7 @@ RUN apk upgrade --no-cache \
     pipx=1.14.0-r0 \
     py3-pip=26.1.2-r0 \
     python3=3.14.5-r0 \
-    pipewire=1.6.6-r0 \
+    pipewire=1.6.8-r4 \
     soundtouch=2.4.1-r0 \
     v4l-utils=1.32.0-r1 \
     wavpack=5.9.0-r0 \
