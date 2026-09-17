@@ -23,7 +23,7 @@ RUN apk upgrade --no-cache \
     ffmpegthumbs=26.04.2-r0 \
     flac=1.4.3-r2 \
     git=2.54.0-r0 \
-    mkvtoolnix=99.0-r0 \
+    mkvtoolnix=99.0-r1 \
     mlt=7.36.1-r1 \
     mp3splt=2.6.2-r1 \
     pipx=1.14.0-r0 \
